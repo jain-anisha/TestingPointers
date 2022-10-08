@@ -3,14 +3,14 @@
 
 int main () {
     int *a;
+    int y;
     // this is an integer, it is expecting an integer
     a = malloc(1000 * sizeof(int));
     // a is just an address, that stores the location of 
     // this just allocates space in memory
     //if not careful of number of space in malloc, bad things happen
-    *(a + 1)
-    /* this will go to the address of the nexi integer, which would be the next 4 bites */
-    
+    y = *(a + 1)
+    /* this will go to the address of the next integer, which would be the next 4 bites */
    
-   return(0);
+   return 0;
 }
